@@ -1,0 +1,434 @@
+/*--General--*/
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	background: #ffffff;
+	color: #313131;
+}
+
+h1 {
+	font-size: 32px;
+	font-family: 'Open Sans', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+h2 {
+	font-size: 28px;
+	font-family: 'Open Sans', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+h3 {
+	font-size: 24px;
+	font-family: 'Open Sans', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+h4 {
+	font-size: 22px;
+	font-family: 'Open Sans', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+h5 {
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+h6 {
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	
+}
+
+.pages {
+	margin-top: 65px !important;
+} 
+
+.pages-head {
+	text-align: center;
+	color: #313131;
+	padding: 0 10px 30px 10px;
+	text-transform: uppercase;
+}
+
+.pages-head h2 {
+	font-weight: 600;
+	font-size: 20px;
+}
+
+/*--Button--*/
+.button-default {
+	background: #ffff00;
+	color: #313131;
+	box-shadow: none;
+	border-radius: 2px;
+	margin: 20px 0;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-weight: 700;
+	border: 1px solid #313131;
+}
+
+.button-default:hover {
+	background: #00ae8b;
+	opacity: 0.9;
+	box-shadow: none;
+}
+
+.button-cart {
+	background: #ffff00;
+	color: #313131;
+	box-shadow: none;
+	border-radius: 2px;
+	margin: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-weight: 700;
+	border: 1px solid #313131;
+}
+
+.button-cart:hover {
+	background: #00ae8b;
+	opacity: 0.9;
+	box-shadow: none;
+}
+
+.button-clear{
+	background: #ffff00;
+	color: #313131;
+	box-shadow: none;
+	border-radius: 2px;
+	margin: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-weight: 700;
+	border: 1px solid #313131;
+}
+
+.button-checkout{
+	background: #ffff00;
+	color: #313131;
+	box-shadow: none;
+	border-radius: 2px;
+	margin: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-weight: 700;
+	border: 1px solid #313131;
+}
+
+
+/*--Navbar--*/
+.navbar-top {
+	background: #00ae8b;
+	width: 100%;
+	height: 65px;
+	padding: 12px 18px;
+	border-bottom: 2px solid #eeeeee;
+	top: 0;
+	right: 0;
+	left: 0;
+	text-align: center;
+	position: fixed;
+	z-index: 99;
+}
+
+.site-brand {
+	text-align: center;
+	display: inline-block;
+}
+
+.site-brand a h1 {
+	font-size: 26px;
+	font-weight: 900;
+	line-height: 40px;
+	color: #313131;
+	letter-spacing: 1px;
+}
+
+.site-brand a h1 span {
+	color: #ffff00;
+}
+
+/*--Sidenav--*/
+.side-nav a {
+	font-size: 14px;
+}
+
+.side-nav-panel-left {
+	float: left;
+}
+
+.side-nav-left {
+	font-size: 28px;
+	color: #313131;
+}
+
+.side-nav-panel {
+	text-align: left;
+	background: #00ae8b;
+}
+
+.side-nav-panel li a {
+	color: #313131;
+	font-weight: 600;
+}
+
+.side-nav-panel li a h1 {
+	font-size: 26px;
+	font-weight: 900;
+	line-height: 40px;
+	color: #313131;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	letter-spacing: 1px;
+}
+
+.side-nav-panel li a h1 span {
+	color: #313131;
+}
+
+.side-nav-panel li {
+	font-weight: 700;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+.side-nav-panel li a:hover {
+	background: #ffff00;
+}
+
+.side-nav-panel li a i {
+	margin: 0 8px 0 0;
+	font-size: 18px;
+	color: #313131;
+	line-height: 45px;
+}
+
+/* --Slider--*/
+.slider {
+	margin-top: 64px;
+	height: 400px !important;
+}
+
+.slider-content {
+	margin: 60px auto;
+	width: 100% !important;
+	left: 0 !important;
+	right: 0 !important;
+	position: relative;
+	flex-shrink: 0;
+}
+
+.slider .slides li img {
+	background-size: 100% 100%;
+}
+
+.slider .slides li::before {
+	background-color: rgba(0, 0, 0, 0.6);
+	content: "";
+	top: 0;
+	right: 0;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.slider-content h2 {
+	font-weight: 900;
+	margin-bottom: 8px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.slider-content .button-default {
+	margin: 40px 0 30px;
+}
+
+.slider .indicators {
+	position: relative;
+	bottom: 50px;
+	z-index: 95;
+}
+
+.slider .indicators .indicator-item {
+	z-index: 1000;
+	height: 10px;
+	width: 10px;
+	background: #cccccc;
+	margin: 0 8px;
+}
+
+.slider .indicators .indicator-item.active {
+	background: #ffffff;
+}
+
+/* --Products--*/
+.product-shop {
+	padding: 0;
+	margin-top: 5px;
+}
+
+.product-shop ul {
+	list-style: none;
+	text-decoration: none;
+}
+
+.product-shop ul li {
+	text-decoration: none;
+}
+
+.tabs-content {
+	margin-top: 18px;
+}
+
+.product-content {
+	border: px solid #eee;
+	text-align: center;
+}
+
+.product-content img {
+	width: 50%;
+	height: 50%;
+	background: #f9f9f9;
+}
+
+.product-cart {
+	text-align: center;
+	margin-top: 10px;
+	padding: 0 10px;
+}
+
+.product-cart li a {
+	color: #313131;
+}
+
+.product-details {
+	padding: 10px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.product-details h5 {
+	margin-bottom: 5px;
+	color: #313131;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+
+.product-details h4 {
+	color: #313131;
+}
+
+input[type=number] {
+	width: 30%;
+	height: 50%;
+	padding: 2px;
+	margin: 2px;
+	border: 1px solid #313131;;
+	border-radius: 2px;
+	text-align: center;
+}
+
+/* --Cart--*/
+div[type=itens]{
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+div[type=total]{
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+
+.cart {
+	margin: 0;
+	padding: 0;
+}
+
+/*--About Us--*/
+.about-us .about-content img {
+	width: 90%;
+	height: 00%;
+	background: #f9f9f9;
+}
+
+.about-us .about-content p{
+	font-size: 18px;
+}
+
+/*--Bottom Page--*/
+.bottom-page {
+	background: #00ae8b;
+	padding: 35px 0;
+}
+
+.about-us-bottom-page {
+	text-align: center;
+	color: #313131;
+}
+
+.about-us-bottom-page span {
+	color: #ffff00;
+}
+
+.about-us-bottom-page h6 {
+	color: #313131;
+	font-weight: 900;
+	font-size: 26px;
+	letter-spacing: 1px;
+}
+
+.social-media {
+	text-align: center;
+	margin: 30px 0 0;
+	padding-bottom: 20px;
+}
+
+.social-media a {
+	margin: 0 3px;
+}
+
+.social-media a i {
+	text-align: center;
+	color: #313131;
+	border-radius: 25%;
+	border: 1px solid #313131;
+	height: 31px;
+	width: 31px;
+	margin: auto;
+	padding: 6px;
+}
+
+.copyright {
+	text-align: center;
+}
+
+.copyright span {
+	color: #313131;
+}
+
+/*-- Contact Us --*/
+
+.contact-info h5{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	color: #313131;
+}
